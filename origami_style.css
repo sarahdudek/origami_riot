@@ -1,1 +1,58 @@
 body {background: #E0FAEE;}
+
+h1#header{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #81D0AB;
+	padding: 40 px;
+	margin: 45 px;
+	border: 2px dashed;
+	border-color: #81D0AB;
+	border-radius: 15px 50px; 
+	
+}
+
+main {
+    width: 75%;
+    display:inline-block;
+}
+
+div#more-info {
+	width: 20%;
+    display:inline-block;
+    vertical-align: top;
+    float: left;
+    min-width: 17%;
+}
+
+div.imgblock {
+	background-color: teal;
+	display: table-cell;
+	margin: 3px;
+	vertical-align: top;
+	width: 33%;
+}
+
+}
+table td {
+	border: 1px solid;
+	border-color: #81D0AB;
+}
+ th {
+ 	border: 3px dotted;
+	border-color: #81D0AB;
+ }
+
+h2 {text-align: center;}
+
+img {
+	max-width: 100%;
+    width: 66%;
+    display: block;
+    align-content: center;
+    margin: auto;
+}	
+
+.caption {
+	align-content: center;
+}
+
