@@ -118,3 +118,14 @@ a   {
 	color: #81D0AB;
 }
 
+
+@media screen and (max-width: 550px){
+	main{
+		display:block;
+		width: 100%;
+	}
+	div#more{
+		display:block;
+		width: 100%;
+	}
+}
