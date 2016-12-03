@@ -1,1 +1,131 @@
-body {background: #E0FAEE;}
+body {
+		background: #E0FAEE;
+		}
+
+
+
+h1#header{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: teal;
+	font-size: 35px;
+	padding: 50px;
+	margin: 45px;
+	border: 2px dashed;
+	border-color: #81D0AB;
+	border-radius: 15px 50px; 
+	text-align: center;
+	background-image: url("http://www.color-hex.com/palettes/12972.png");
+}
+
+h1#header2{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: teal;
+	font-size: 35px;
+	padding: 50px;
+	margin: 45px;
+	border: 2px dashed;
+	border-color: #81D0AB;
+	border-radius: 15px 50px; 
+	text-align: center;
+	background-image: url("http://www.color-hex.com/palettes/12972.png");
+}
+
+main {
+    width: 70%;
+    display: inline-block;
+    position: absolute;
+}
+
+div#more{
+	width: 20%;
+	display: inline-block;
+    vertical-align: top;
+    min-width: 17%;    
+}
+
+div.imgblock {
+	background-color: teal;
+	padding: 25px;
+	margin: 10px;
+	display: table-cell;
+	vertical-align: top;
+	width: 33%;
+}
+
+.content {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #81D0AB;
+}
+
+a.content{
+	color:hotpink;
+}
+
+a.content:visited {
+	color: black;
+}
+
+
+div#table {
+	padding:45px;
+}
+}
+table {
+	border: 1px solid;
+	border-color: #81D0AB;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #81D0AB;
+	padding: 30px;
+	margin: auto;
+}
+ th {
+ 	border: 3px dotted;
+ 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #81D0AB;
+	border-color: #81D0AB;
+ }
+
+ td {
+ 	border: 1px solid;
+ 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #81D0AB;
+	border-color: #81D0AB;
+	padding: 30px;
+	margin: auto;
+ }
+
+h2 {text-align: center;}
+
+img {
+	max-width: 100%;
+    width: 66%;
+    display: block;
+    align-content: center;
+    margin: auto;
+}	
+
+ul	{
+	list-style-type: circle;
+}
+
+a   {
+	color: hotpink;
+}
+
+.caption {
+	align-content: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #81D0AB;
+}
+
+
+@media screen and (max-width: 550px){
+	main{
+		display:block;
+		width: 100%;
+	}
+	div#more{
+		display:block;
+		width: 100%;
+	}
+}
