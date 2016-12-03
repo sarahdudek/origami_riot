@@ -17,6 +17,19 @@ h1#header{
 	background-image: url("http://www.color-hex.com/palettes/12972.png");
 }
 
+h1#header2{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: teal;
+	font-size: 35px;
+	padding: 50px;
+	margin: 45px;
+	border: 2px dashed;
+	border-color: #81D0AB;
+	border-radius: 15px 50px; 
+	text-align: center;
+	background-image: url("http://www.color-hex.com/palettes/12972.png");
+}
+
 main {
     width: 70%;
     display: inline-block;
@@ -27,7 +40,7 @@ div#more{
 	width: 20%;
 	display: inline-block;
     vertical-align: top;
-    min-width: 17%;
+    min-width: 17%;    
 }
 
 div.imgblock {
@@ -43,6 +56,16 @@ div.imgblock {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #81D0AB;
 }
+
+a.content{
+	color:hotpink;
+}
+
+a.content:visited {
+	color: black;
+}
+
+
 div#table {
 	padding:45px;
 }
@@ -83,6 +106,10 @@ img {
 
 ul	{
 	list-style-type: circle;
+}
+
+a   {
+	color: hotpink;
 }
 
 .caption {
